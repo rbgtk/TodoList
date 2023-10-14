@@ -5,10 +5,10 @@
   </v-app-bar>
 
   <v-navigation-drawer v-model="drawer" app clipped>
-    <v-list-item link title="My Application" to="/"></v-list-item>
+    <v-list-item link title="Home" to="/"></v-list-item>
     <v-divider></v-divider>
-    <v-list-item link title="Admin" to="/admin"></v-list-item>
     <v-list-item link title="Todos" to="/todos"></v-list-item>
+    <v-list-item link title="Settings" to="/settings"></v-list-item>
   </v-navigation-drawer>
 </template>
 
